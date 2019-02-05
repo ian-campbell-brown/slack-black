@@ -1766,6 +1766,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
   font-family: var(--font-family) !important;
   margin-left: 20px !important; }
 
+.c-member_slug--link,
 .c-member_slug--mention, .c-member_slug--mention:hover {
   background: #565656;
 }
