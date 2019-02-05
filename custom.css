@@ -1766,9 +1766,9 @@ feature_archive_deeplink feature_texty winssb light_theme {
   font-family: var(--font-family) !important;
   margin-left: 20px !important; }
 
-c-member_slug.c-member_slug--link,
-c-member_slug.c-member_slug--mention, 
-c-member_slug.c-member_slug--mention:hover {
+.c-message__body .c-member_slug--link,
+.c-message__body .c-member_slug--mention, 
+.c-member_slug.c-member_slug--mention:hover {
   background: #565656 !important;
 }
 /*# sourceMappingURL=custom.css.map */
