@@ -1767,6 +1767,6 @@ feature_archive_deeplink feature_texty winssb light_theme {
   margin-left: 20px !important; }
 
 .c-member_slug--mention, .c-member_slug--mention:hover {
-  background: --text-mention;
+  background: #565656;
 }
 /*# sourceMappingURL=custom.css.map */
