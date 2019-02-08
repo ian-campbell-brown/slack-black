@@ -1772,8 +1772,9 @@ feature_archive_deeplink feature_texty winssb light_theme {
   background-color: #565656 !important;
 }
 
+.c-message__reply_bar--focus,
 .c-message__reply_bar::hover {
-  background-color: var(--background-hover) !important;
+  background-color: #B0B2B5 !important;
 }
 .p-threads_flexpane__separator_count {
 	color: var(--text) !important;
