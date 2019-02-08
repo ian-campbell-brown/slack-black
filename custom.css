@@ -1769,10 +1769,17 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .c-message__body .c-member_slug--link,
 .c-message__body .c-member_slug--mention, 
 .c-member_slug.c-member_slug--mention:hover {
-  background: #565656 !important;
+  background-color: #565656 !important;
 }
 
 .c-message__reply_bar::hover {
-  background-color: var(--background-hover);
+  background-color: var(--background-hover) !important;
+}
+.p-threads_flexpane__separator_count {
+	color: var(--text) !important;
+}
+
+#col_flex {
+	margin-top: 0px !important;
 }
 /*# sourceMappingURL=custom.css.map */
