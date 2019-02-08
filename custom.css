@@ -1771,4 +1771,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .c-member_slug.c-member_slug--mention:hover {
   background: #565656 !important;
 }
+
+.c-message__reply_bar::hover {
+  background-color: var(--background-hover);
+}
 /*# sourceMappingURL=custom.css.map */
