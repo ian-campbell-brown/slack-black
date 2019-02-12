@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Bad+Script|Rajdhani");
 :root {
   /* Modify these to change your theme colors: */
-  --primary: #E5C17C;
-  --accent: #568AF2;
+  --primary: #98ffb2;
+  --accent: #ff98e5;
   --text: #ABB2BF;
   --background: #282C34;
   --background-elevated: #3B4048;
@@ -1773,7 +1773,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 }
 
 .c-message__reply_bar--focus,
-.c-message__reply_bar::hover {
+.c-message__reply_bar:hover {
   background-color: #B0B2B5 !important;
 }
 
@@ -1790,7 +1790,4 @@ feature_archive_deeplink feature_texty winssb light_theme {
 	margin-top: 1px !important;
 }
 
-
-		
-}
 /*# sourceMappingURL=custom.css.map */
