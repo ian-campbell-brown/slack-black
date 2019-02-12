@@ -13,6 +13,7 @@
     --border-dim: #666;
     --border-bright: var(--primary);
     --mention_slug: #222;
+    --mention_slug_hover: #111;
     --reply_box: #B0B2B5;
     --text-bright: #FFF;
     --text-dim: #555c69;
@@ -1769,9 +1770,12 @@ feature_archive_deeplink feature_texty winssb light_theme {
     margin-left: 20px !important; }
 
 .c-member_slug.c-member_slug--link,
-.c-member_slug.c-member_slug--mention,
-.c-member_slug.c-member_slug--mention:hover {
+.c-member_slug.c-member_slug--mention {
     background-color: var(--mention_slug) !important;
+}
+
+.c-member_slug.c-member_slug--mention:hover {
+    background-color: var(--mention_slug_hover) !important;
 }
 
 .c-message__reply_bar--focus,
