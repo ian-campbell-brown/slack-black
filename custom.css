@@ -1798,4 +1798,13 @@ feature_archive_deeplink feature_texty winssb light_theme {
     margin-top: 1px !important;
 }
 
+.c-unified_member__display-name--large, .c-unified_member__title--large {
+    color: var(--primary) !important;  
+    font-size: 17px;
+}
+
+.c-unified_member__other-names--large {
+    font-style: italic !important;   
+}
+
 /*# sourceMappingURL=custom.css.map */
