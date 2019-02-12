@@ -12,6 +12,8 @@
     --background-bright: #FFF;
     --border-dim: #666;
     --border-bright: var(--primary);
+    --mention_slug: #565656;
+    --reply_box: #B0B2B5;
     --text-bright: #FFF;
     --text-dim: #555c69;
     --text-special: var(--primary);
@@ -1769,17 +1771,22 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .c-message__body .c-member_slug--link,
 .c-message__body .c-member_slug--mention,
 .c-member_slug.c-member_slug--mention:hover {
-    background-color: #565656 !important;
+    background-color: var(--mention_slug) !important;
 }
 
 .c-message__reply_bar--focus,
-.c-message__reply_bar:hover {
-    background-color: #B0B2B5 !important;
+.c-message__reply_bar:hover,
+.c-message__reply_bar_view_thread {
+    background-color: var(--reply_box) !important;
 }
 
 .p-threads_flexpane__header_channel_name,
 .p-threads_flexpane__separator_count {
     color: var(--text) !important;
+}
+
+.p-threads_footer__input--legacy .p-message_input_file_button:hover {
+    background: var(--primary) !important;
 }
 
 #col_flex {
