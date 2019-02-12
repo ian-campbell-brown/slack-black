@@ -1782,11 +1782,12 @@ feature_archive_deeplink feature_texty winssb light_theme {
 
 .p-threads_flexpane__header_channel_name,
 .p-threads_flexpane__separator_count {
-    color: var(--text) !important;
+    color: var(--primary) !important;
 }
 
 .p-threads_footer__input--legacy .p-message_input_file_button:hover {
-    background: var(--primary) !important;
+    background: var(--text) !important;
+    color: var(--primary) !important;
 }
 
 #col_flex {
