@@ -1794,10 +1794,6 @@ feature_archive_deeplink feature_texty winssb light_theme {
     margin-top: 0px !important;
 }
 
-.p-threads_footer__input--legacy .p-message_input_field {
-    margin-top: 1px !important;
-}
-
 .c-unified_member__display-name--large, .c-unified_member__title--large {
     color: var(--primary) !important;  
     font-size: 17px;
