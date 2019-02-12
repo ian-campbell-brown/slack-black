@@ -12,7 +12,7 @@
     --background-bright: #FFF;
     --border-dim: #666;
     --border-bright: var(--primary);
-    --mention_slug: #565656;
+    --mention_slug: #222;
     --reply_box: #B0B2B5;
     --text-bright: #FFF;
     --text-dim: #555c69;
@@ -1768,8 +1768,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
     font-family: var(--font-family) !important;
     margin-left: 20px !important; }
 
-.c-message__body .c-member_slug--link,
-.c-message__body .c-member_slug--mention,
+.c-member_slug.c-member_slug--link,
+.c-member_slug.c-member_slug--mention,
 .c-member_slug.c-member_slug--mention:hover {
     background-color: var(--mention_slug) !important;
 }
