@@ -105,12 +105,14 @@ pre {
     box-shadow: 0 1px var(--border-dim);
     color: var(--text); }
 
-.c-button, .c-button--outline {
+.c-button,
+.c-button--outline {
     background: var(--background);
     color: var(--text);
     box-shadow: inset 0 0 0 1px var(--border-dim); }
 	
-.c-button, .c-button--outline:hover {
+.c-button:hover,
+.c-button--outline:hover {
 	color: var(--primary);
 	box-shadow: inset 0 0 0 1px var(--primary); }
 }
