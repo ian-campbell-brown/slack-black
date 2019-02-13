@@ -1865,4 +1865,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .menu ul li.divider {
  	border-bottom: 1px solid rgba(0,0,0,.3);
 }
+.menu .menu_content {
+	box-shadow: var(--text) 1px 2px 6px;
+}
 /*# sourceMappingURL=custom.css.map */
