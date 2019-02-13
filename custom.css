@@ -1809,6 +1809,11 @@ feature_archive_deeplink feature_texty winssb light_theme {
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     background: var(--background) !important;
+    box-shadow: none;
+}
+
+.client_channels_list_container #team_menu {
+    box-shadow: var(--primary) 0px 0px 10px;
 }
 
 /*# sourceMappingURL=custom.css.map */
