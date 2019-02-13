@@ -1824,4 +1824,13 @@ feature_archive_deeplink feature_texty winssb light_theme {
     color: var(--primary);   
 }
 
+#client-ui.flex_pane_showing #col_flex {
+    box-shadow: var(--background-elevated) 1px 1px 25px;
+    z-index: 200;
+}
+
+#team_tab #member_preview_scroller .member_details .member_name {
+    color: var(--accent);
+}
+
 /*# sourceMappingURL=custom.css.map */
