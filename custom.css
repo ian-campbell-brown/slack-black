@@ -1813,7 +1813,11 @@ feature_archive_deeplink feature_texty winssb light_theme {
 }
 
 .client_channels_list_container #team_menu {
-    box-shadow: var(--primary) 0px 0px 10px;
+    box-shadow: var(--primary) 0px 0px 5px;
+}
+
+.client_channels_list_container {
+    z-index: 250;   
 }
 
 /*# sourceMappingURL=custom.css.map */
