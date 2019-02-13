@@ -1813,11 +1813,11 @@ feature_archive_deeplink feature_texty winssb light_theme {
 }
 
 .client_channels_list_container #team_menu {
-    box-shadow: var(--primary) 0px 0px 5px;
+    box-shadow: var(--primary) 0px 0px 3px !important;
 }
 
 .client_channels_list_container {
-    z-index: 250;   
+    z-index: 250 !important;   
 }
 
 /*# sourceMappingURL=custom.css.map */
