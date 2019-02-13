@@ -1830,7 +1830,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 }
 
 #team_tab #member_preview_scroller .member_details .member_name {
-    color: var(--accent);
+    color: var(--text-bright);
 }
 
 /*# sourceMappingURL=custom.css.map */
