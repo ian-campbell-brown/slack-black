@@ -1857,4 +1857,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .small_right_padding old_petunia_grey {
     padding-left: 4px;
 }
+
+.close_flexpane {
+	padding-right: 3px;	
+}
 /*# sourceMappingURL=custom.css.map */
