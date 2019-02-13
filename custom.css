@@ -1820,4 +1820,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
     z-index: 250 !important;   
 }
 
+.c-menu_item__header {
+    color: var(--primary);   
+}
+
 /*# sourceMappingURL=custom.css.map */
