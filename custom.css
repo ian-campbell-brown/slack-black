@@ -116,6 +116,10 @@ pre {
 	box-shadow: inset 0 0 0 1px var(--primary); }
 }
 
+.c-button:active {
+    background: var(--background-light);
+}
+
 .presence {
     color: var(--text); }
 .presence.active {
@@ -1849,7 +1853,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
     color: var(--text-bright);
 }
 
-.small_right_padding.old_petunia_grey {
+.small_right_padding old_petunia_grey {
     padding-left: 4px;
 }
 /*# sourceMappingURL=custom.css.map */
