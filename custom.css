@@ -1807,4 +1807,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
     font-style: italic !important;   
 }
 
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    background: var(--background) !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
