@@ -111,7 +111,6 @@ pre {
     color: var(--text);
     box-shadow: inset 0 0 0 1px var(--border-dim); }
 	
-.c-button:hover,
 .c-button--outline:hover {
 	color: var(--primary);
 	box-shadow: inset 0 0 0 1px var(--primary); }
@@ -868,6 +867,12 @@ ts-mention:hover {
 .menu #menu_items .member_jump_item:hover a {
     background: var(--background-hover);
     color: var(--text-bright); }
+.menu ul li .menu_item_details {
+	color: black;
+}
+.menu ul li .menu_item_details:hover {
+	color: #222;
+}
 .menu #menu_items li a {
     color: var(--text) !important; }
 .menu #menu_items li:hover a {
@@ -1844,7 +1849,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
     color: var(--text-bright);
 }
 
-.small_right_padding old_petunia_grey {
+.small_right_padding.old_petunia_grey {
     padding-left: 4px;
 }
 /*# sourceMappingURL=custom.css.map */
