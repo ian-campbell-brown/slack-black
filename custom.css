@@ -226,7 +226,7 @@ ts-mention:hover {
 .p-message_pane__unread_banner__close,
 .p-message_pane__unread_banner__banner {
     background: var(--primary) !important;
-    color: var(--text-bright) !important; }
+    color: var(--background-elevated) !important; }
 
 .c-message_list__unread_divider__separator {
     border-color: var(--red2) !important; }
