@@ -391,7 +391,7 @@ ts-mention:hover {
     border: 1px solid;
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
-    color: var(--text-bright) !important; }
+    color: var(--text-dim) !important; }
 .client_channels_list_container #col_channels .p-channel_sidebar__banner--mentions {
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
