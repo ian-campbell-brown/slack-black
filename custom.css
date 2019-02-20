@@ -2,7 +2,7 @@
 :root {
     /* Modify these to change your theme colors: */
     --primary: #98ffb2;
-    --accent: #ff98e5;
+    --accent: #9999ff;
     --text: #ABB2BF;
     --background: #282C34;
     --background-elevated: #3B4048;
@@ -1879,5 +1879,12 @@ feature_archive_deeplink feature_texty winssb light_theme {
 	text-decoration: underline;
 }
 
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle,
+.c-member_slug.c-member_slug--link.ts_tip_texty {
+    color: var(--accent);
+}
 
+.tab_complete_ui li.tab_complete_ui_group.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_group.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_group.active .presence.active, .tab_complete_ui li.tab_complete_ui_group.active span, .tab_complete_ui li.tab_complete_ui_item.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_item.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_item.active .presence.active, .tab_complete_ui li.tab_complete_ui_item.active span {
+    color: var(--primary);
+}
 /*# sourceMappingURL=custom.css.map */
