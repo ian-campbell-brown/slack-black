@@ -1888,7 +1888,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted) .p-channel_sidebar__name {
 	font-weight: bold;
     font-style: italic;
-	font-color: var(--accent);
+	font-color: var(--accent) !important;
 	text-decoration: underline;
 }
 
