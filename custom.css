@@ -191,7 +191,11 @@ svg.ts_icon_spinner:empty {
 ts-mention {
     background: var(--accent);
     color: var(--text-accent) !important;
-    padding: 2px 5px }
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
 .c-mrkdwn__mention:hover,
 .c-mrkdwn__member--mention:hover,
 .c-mrkdwn__broadcast--mention:hover,
@@ -1794,9 +1798,11 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .c-member_slug.c-member_slug--link,
 .c-member_slug.c-member_slug--mention {
     padding: 1px 5px;
-    background-color: var(--mention_slug) !important;
-    background: var(--primary);
-    color: var(--text-accent) !important;
+    background-color: var(--primary) !important;
+    color: var(--black) !important;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
 }
 
 .c-member_slug.c-member_slug--mention:hover {
