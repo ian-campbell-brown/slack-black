@@ -656,7 +656,7 @@ ts-mention:hover {
 .global_notification_block,
 #fs_modal_header {
     background: var(--background) !important;
-    color: var(--text) !important; }
+    color: var(--text)}
 
 #msg_input {
     background: transparent !important;
@@ -1898,5 +1898,13 @@ feature_archive_deeplink feature_texty winssb light_theme {
 
 .tab_complete_ui li.tab_complete_ui_group.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_group.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_group.active .presence.active, .tab_complete_ui li.tab_complete_ui_group.active span, .tab_complete_ui li.tab_complete_ui_item.active .cmd-left-td, .tab_complete_ui li.tab_complete_ui_item.active .cmd-right-td, .tab_complete_ui li.tab_complete_ui_item.active .presence.active, .tab_complete_ui li.tab_complete_ui_item.active span {
     color: var(--primary);
+}
+
+#channel_browser .channel_browser_divider {
+    background: var(--background-elevated);
+}
+
+#channel_browser .channel_browser_row:hover {
+    background: var(--background-hover);
 }
 /*# sourceMappingURL=custom.css.map */
