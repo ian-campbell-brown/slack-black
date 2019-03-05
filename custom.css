@@ -166,7 +166,7 @@ svg.ts_icon_spinner:empty {
 .btn.dialog_go.btn_green,
 .btn_outline.btn_green {
     background: var(--primary) !important;
-    color: var(--text-bright) !important; }
+    color: var(--text-dim) !important; }
 
 .lazy_filter_select .lfs_input_container {
     border-color: var(--border-dim) !important;
