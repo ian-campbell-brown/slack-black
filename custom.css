@@ -1911,4 +1911,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 #message_edit_form .msg_mentions_button:hover, #msg_form .msg_mentions_button:hover, .current_status_container .msg_mentions_button:hover, .current_status_input_container .msg_mentions_button:hover, .inline_message_input_container .msg_mentions_button:hover, .share_channel_modal_contents .msg_mentions_button:hover {	
 	color: var(--primary);
 }
+.client_main_container #client_body .c-message, .client_main_container #client_body .c-message__content, .client_main_container #client_body .c-message__body, .client_main_container #client_body .c-message__label, .client_main_container #client_body .c-message__sender {
+	background: var(--background-hover);	
+}
 /*# sourceMappingURL=custom.css.map */
