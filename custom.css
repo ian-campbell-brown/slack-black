@@ -1914,4 +1914,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .client_main_container #client_body .c-message, .client_main_container #client_body .c-message__content, .client_main_container #client_body .c-message__body, .client_main_container #client_body .c-message__label, .client_main_container #client_body .c-message__sender {
 	background: var(--background-hover);	
 }
+
+.c-message_kit__background--labels {
+    background: var(--gray);
+}
 /*# sourceMappingURL=custom.css.map */
