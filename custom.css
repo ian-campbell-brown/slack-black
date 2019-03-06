@@ -233,10 +233,10 @@ ts-mention:hover {
     color: var(--primary) !important; }
 
 .c-message_list__unread_divider__separator {
-    border-color: var(--red2) !important; }
+    border-color: var(--accent) !important; }
 .c-message_list__unread_divider__label {
-    background: var(--red2) !important;
-    color: var(--text-bright) !important; }
+    background: var(--accent) !important;
+    color: var(--black) !important; }
 
 #snippet_prompt,
 #special_formatting_text,
