@@ -511,7 +511,7 @@ ts-mention:hover {
     border: 1px solid var(--border-dim);
     color: var(--border-dim);
     z-index: 300;
-    box-shadow: var(--border-dim) 0px 0px 3px !important;
+    box-shadow: var(--border-dim) 0px 0px 2px !important;
 }
 .client_main_container #client_body .c-timestamp__label {
     color: var(--text) !important; }
